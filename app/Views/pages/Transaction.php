@@ -1,9 +1,11 @@
-// use layout
+//Use Layout
 <?= $this->extend('layouts/mainlayout') ?>
 
-// content
+//content
 <?= $this->section('content') ?>
-    <div>
-        Ini data mahasiswa
-    </div>
+<div>
+    Ini untuk rejkap transaksi
+</div>
+
+
 <?= $this->endSection(); ?>

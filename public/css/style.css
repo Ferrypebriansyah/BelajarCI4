@@ -1,0 +1,36 @@
+body {
+  overflow-x: hidden;
+}
+.sidebar {
+  height: 100vh;
+  background-color: #007bff;
+}
+.sidebar .nav-link {
+  color: white;
+  font-weight: medium;
+}
+.sidebar .nav-link:hover {
+  background-color: #0056b3;
+}
+.sidebar .logout {
+  background-color: #dc3545;
+  color: white;
+}
+.sidebar .logout:hover {
+  background-color: #c82333;
+}
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+  color: #007bff;
+}
+.navbar .nav-item a {
+  color: #000;
+}
+.navbar .nav-item a:hover {
+  color: #007bff;
+}

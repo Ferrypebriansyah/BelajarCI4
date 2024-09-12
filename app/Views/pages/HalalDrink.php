@@ -1,9 +1,11 @@
-// use layout
+//Use Layout
 <?= $this->extend('layouts/mainlayout') ?>
 
-// content
+//content
 <?= $this->section('content') ?>
-    <div>
-        Ini Info kampus
-    </div>
+<div>
+    Ini menu minuman
+</div>
+
+
 <?= $this->endSection(); ?>

@@ -6,18 +6,41 @@ class Views extends BaseController
 {
     public function index(): string
     {
-        return view('index'); 
+        return view('index');
     }
-    //Data Mahasiswa Views
-    public function datamhs(): string {
-        return view('pages/DataMahasiswa', ['title' => 'Data Mahasiswa']);
+    //All Menu Views
+    public function allmen(): string
+    {
+        return view('pages/AllHalal', ['title' => 'All HalalIndo Menu']);
     }
-    //Data Mahasiswa Views
-    public function ttgmhs(): string {
-        return view('pages/TentangMahasiswa', ['title' => 'Tentang Mahasiswa']);
+    //Food Menu Views
+    public function hllfood(): string
+    {
+        return view('pages/HalalFood', ['title' => 'Halal Food Menu']);
     }
-    //Data Mahasiswa Views
-    public function infkampus(): string {
-        return view('pages/InfoKampus', ['title' => 'Info Kampus']);
+    //Drinks Menu Views
+    public function hlldrink(): string
+    {
+        return view('pages/HalalDrink', ['title' => 'Halal Drink Menu']);
+    }
+    //add On  Views
+    public function addon(): string
+    {
+        return view('pages/AddOn', ['title' => 'Add On Items']);
+    }
+    //Management Menu Views
+    public function magmenu(): string
+    {
+        return view('pages/MenuManagement', ['title' => 'Menu Management']);
+    }
+    //Transaksi Views
+    public function trans(): string
+    {
+        return view('pages/Transaction', ['title' => 'Transaction']);
+    }
+    //Seetings Views
+    public function setmenu(): string
+    {
+        return view('pages/Settings', ['title' => 'Settings']);
     }
 }
